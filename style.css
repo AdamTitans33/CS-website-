@@ -33,6 +33,7 @@ ul{
     list-style-type: square;
     color: black;
     font-family: Times, serif; 
+    margin-right: 1cm;
 }
 h3{
     color: darkslateblue;
@@ -44,8 +45,7 @@ img{
     float: right;
     width: 250px;
     height: 200px;
-    padding: 0px,0px,0px,50px; 
-}
+   
 ol.list1{
     list-style-position: inside; 
 }
