@@ -45,5 +45,11 @@ img{
     float: right;
     width: 250px;
     height: 200px;
+}
+img.img2 {
+    float: left;
+    width:500px;
+    height: 500px;
+}
    
 
