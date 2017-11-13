@@ -46,10 +46,13 @@ img{
     width: 250px;
     height: 200px;
 }
-img.img2 {
+.img2 {
     float: left;
     width:500px;
     height: 500px;
+    padding-right:960px;
+    
 }
+
    
 
