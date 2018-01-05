@@ -28,13 +28,13 @@
             </ol>
        <h2> What Does Cryptography Do for Me?</h2>
         <ul> 
-            <li> <br>A simple way to answer this is with another question... What DOESN'T cryptography do for you? Any thing you have ever do on the internet is protected by some form of Cryptography. Any storing of data on a database or transmission of data uses cryptography to keep the data secret during its' transmission or storage. The Picture should give you a basic visual of how data transmission is effected and protected by cryptography  </li>
+            <li> A simple way to answer this is with another question... What DOESN'T cryptography do for you? Any thing you have ever do on the internet is protected by some form of Cryptography. Any storing of data on a database or transmission of data uses cryptography to keep the data secret during its' transmission or storage. The Picture should give you a basic visual of how data transmission is effected and protected by cryptography  </li>
         </ul>
         <img class = "img2"  src = "https://upload.wikimedia.org/wikipedia/commons/2/27/Symmetric_key_encryption.svg" alt = "Data transmission protected by an encryption key" />
              
         <ul>
             <li>
-                <br>This image shows that Bob is sending some data, in the form of a message to Alice. Bob types his message as plaintext, during the process of sending the message is encrypted using an encryption key and converted to cyphertext. The message is sent to Alice and she recieves it is still cyphertext. Once she recieves it the same encryption key is applied in order to decryp the message and turn it into readable plaintext. <br>This is an example if symmetric key encryption, notice that there is only one key for encryption and decryption which is the same... hence the 'symmetric' classification. 
+                <br>This image shows that Bob is sending some data, in the form of a message to Alice. Bob types his message as plaintext, during the process of sending the message is encrypted using an encryption key and converted to cyphertext. The message is sent to Alice and she recieves it as cyphertext. Once she recieves it the same encryption key is applied in order to decrypt the message and turn it into readable plaintext. <br>This is an example if symmetric key encryption, notice that there is only one key for encryption and decryption which is the same... hence the 'symmetric' classification. 
             </li>
             <li>
                 If you haven't noticed this style of encryption is inherintly falwed becasue if you find the key you an access the information at any time. This is especially an issue for sending infromation over the intertnet. To combat this issue we have developed a second type of encryption which is more secure and more complicated to explain. 
@@ -45,6 +45,17 @@
             <p class = 'para2'> Asymmetric key encription is a more complicated and safer method of ecnrypting data, used primarly in tranferring data(remember that for our purposes data can be a message or a picture in an email). Asymmetric  key encryption involves two unqie keys one used to turn the plaintext into cyphertext and one used to undo this process on the recieving end.</p>
         <p class = 'para2'> To explain this a bit better we'll bring back Bob and Alice but this time their data is protected in a more sophisticated way.</p>
         <img class = 'img2' src= 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/250px-Public_key_encryption.svg.png' alt = 'Data transmission protected by assymentric key encryption'/>
+        <ul>
+            <li>
+                So what makes assymetric key encryption so much better for data on the move compaired to symmetric key encryption?
+            </li>
+            <li>
+                Well to start off we can see that there are two different keys, one to encrypt and one to decrypt. This is useful because only one key - the "public" key- needs to move around on the internet and this is the key which wouldn't help hackers. 
+            </li>
+            <li>
+                In the example above Alice is able to keep her secret key locally and not have it moving around on the internet which means it is safer than the public key and harder to acess by anyone other than Alice. Compare this to symmetric key encryption where there is only one key and it is being sent to the recipient along with the document, making it eaysier to access and eaysier to decode someone elses messages. 
+            </li>
+        </ul>
     
             
    </body>
